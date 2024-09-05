@@ -9,7 +9,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 
-BOT_API_KEY = '7220671584:AAGqcdjNaJJnl1a8zwRZPqRtHyP8HcWjwE4'
+BOT_API_KEY = '7381965667:AAGDfzKBi6SKYcNPldk3mWfjwRBX-fkE3J8'
 OWNER_ID = 2110320288
 
 
@@ -596,7 +596,7 @@ async def _check_cc(message):
                 edit_check_message = f"""
 🔍 **Checking:** `{current_cc}`
 🚪 **Gate:** **Braintree Auth**
-👨‍💻 **Developer:** **@ZodMadara**
+👨‍💻 **Developer:** **@Noltex**
                 """
 
                 bot.edit_message_text(edit_check_message, message.chat.id, msg.message_id, reply_markup=keyboard, parse_mode="Markdown")
@@ -610,7 +610,7 @@ async def _check_cc(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @ZodMadara
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @Noltex
     """,
     parse_mode="Markdown"
 )
@@ -621,7 +621,7 @@ async def _check_cc(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @ZodMadara
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @Noltex
     """,
     parse_mode="Markdown"
 )
@@ -831,7 +831,7 @@ async def _handle_docs(message):
                 edit_check_message = f"""
 🔍 **Checking:** `{current_cc}`
 🚪 **Gate:** **Braintree Auth**
-👨‍💻 **Developer:** **@ZodMadara**
+👨‍💻 **Developer:** **@Noltex**
                 """
 
                 bot.edit_message_text(edit_check_message, message.chat.id, msg.message_id, reply_markup=keyboard, parse_mode="Markdown")
@@ -845,7 +845,7 @@ async def _handle_docs(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @ZodMadara
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @Noltex
     """,
     parse_mode="Markdown"
 )
